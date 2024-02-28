@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página 3</title>
+</head>
+
+	<style>
+        /* Estilo para a caixa */
+        fieldset {
+            border: 1px solid #000; /* borda preta */
+            padding: 10px; /* espaçamento interno */
+            width: 650px; /* largura da caixa */
+        }
+	</style>
+
+<body>
+	<p>Olá, você está na Página 3.</p>
+	<a href="index.html">Página Principal</a>
+	<br>
+	<hr>
+	<h1>Formulário</h1>
+		<fieldset>
+			<legend><b>Dados pessoais</b></legend>
+		<form>
+			<label for="iptNome">Nome: </label>
+			<input type="text" id="iptNome" style="width: 300px;"> <br>
+
+			<label for="iptNasc">Data de nascimento: </label>
+			<input type="date" id="iptNasc"> <br>
+
+			<label for="iptEndereco">Endereço: </label>
+			<input type="text" id="iptEndereco" style="width: 350px;"> <br>
+			
+			<label for="iptBairro">Bairro: </label>
+			<input type="text" id="iptBairro"> <br>
+
+			<label for="iptCidade">Cidade: </label>
+			<input type="text" id="iptCidade"> <br>
+
+			<label for="iptCEP">CEP: </label>
+			<input type="number" id="iptCEP"> <br>
+
+			<label for="slcEstado"> Estado: </label>
+				<select id="slcEstado" name="slcEstado">
+					<option value="1">Alagoas</option>
+					<option value="2">Amapá</option>
+					<option value="3">Amazonas</option>
+					<option value="4">Bahia</option>
+					<option value="5">Ceará</option>
+					<option value="6">Distrito Federal</option>
+					<option value="7">Espírito Santo</option>
+					<option value="8">Goiás</option>
+					<option value="9">Maranhão</option>
+					<option value="10">Mato Grosso</option>
+					<option value="11">Mato Grosso do Sul</option>
+					<option value="12">Minas Gerais</option>
+					<option value="13">Pará</option>
+					<option value="14">Paraíba</option>
+					<option value="15">Paraná</option>
+					<option value="16">Pernambuco</option>
+					<option value="17">Piauí</option>
+					<option value="18">Rio de Janeiro</option>
+					<option value="19">Rio Grande do Norte</option>
+					<option value="20">Rio Grande do Sul</option>
+					<option value="21">Rondônia</option>
+					<option value="22">Roraima</option>
+					<option value="23">Santa Catarina</option>
+					<option value="24">São Paulo</option>
+					<option value="25">Sergipe</option>
+					<option value="26">Tocantins</option>
+				</select>
+		</form>
+
+		</fieldset> <br>
+		<fieldset>
+			<legend><b>Dados profissionais</b></legend>
+				<b>Natureza do Cargo</b>
+				<br>
+				<input type="radio" id="iptCargo1" name="iptCargo">
+				<label for="iptCargo1"> Gerência </label>
+				
+				<input type="radio" id="iptCargo2" name="iptCargo">
+				<label for="iptCargo2"> Financeiro </label>
+
+				<input type="radio" id="iptCargo3" name="iptCargo">
+				<label for="iptCargo3"> Recepção </label>
+
+				<input type="radio" id="iptCargo4" name="iptCargo">
+				<label for="iptCargo4"> Administrativo </label>
+
+				<input type="radio" id="iptCargo5" name="iptCargo">
+				<label for="iptCargo5"> Juridico </label>
+				
+				<br><br>
+					<b>Área de interesse</b> <br>
+					<input type="checkbox" id="iptArea1" name="iptArea1" value="Computacao">
+					<label for="iptArea1"> Computação </label>
+					
+					<input type="checkbox" id="iptArea2" name="iptArea2" value="Quimica">
+					<label for="iptArea2"> Química </label>
+
+					<input type="checkbox" id="iptArea3" name="iptArea3" value="MeioAmbiente">
+					<label for="iptArea3"> Meio Ambiente </label>
+
+					<input type="checkbox" id="iptArea4" name="iptArea4" value="Engenharia">
+					<label for="iptArea4"> Engenharia </label>
+
+					<input type="checkbox" id="iptArea5" name="iptArea5" value="Matematica">
+					<label for="iptArea5"> Matemática </label> 
+<br><br>
+					<b for="txtCurriculo"><b>Mini-currículo:</b></label> <br>
+					<textarea style="border: 1px solid; background-color: rgba(107, 107, 107, 0.202)" id="txtCurriculo" name="txtCurriculo" rows="8" cols="70"></textarea>
+
+
+		</fieldset>
+		<br>
+		<button style="border: 1px solid; background-color: rgba(0, 255, 0, 0.628)" type="submit">Enviar</button>
+		<input style="border: 1px solid; background-color: rgba(255, 0, 0, 0.404)" type="reset" value="Limpar">
+</body>
+
+</html>
