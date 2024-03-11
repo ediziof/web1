@@ -1,0 +1,16 @@
+p{
+    font-size: 20pt;
+    color:  blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;    
+}
+
+body {
+    background-color: #ffcc66;
+    background-image: url("../imgs/foto1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: right bottom; */
+    background-size: cover;
+    }
