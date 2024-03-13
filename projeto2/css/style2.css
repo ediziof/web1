@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(189, 187, 187);
+}
+p{
+    color:  black; font-size: 20pt;
+}
+
+span{
+    font-size: 50%;
+    background-color: red;
+    color: yellow;
+}
+
+.par{
+    background-color: black;
+    color: blue;
+}
+
+.impar{
+    background-color: black;
+    color: green;
+    font-style: italic;
+}
+
+span.esp2{
+    background-color: purple;
+    color: rgb(6, 196, 221);
+}
+
+.esp3{
+    background-color: rgb(248, 8, 228);
+    color: rgb(221, 146, 6);
+}
+
+span.gen{
+    font-weight: bold;
+    font-size: 130%;
+}

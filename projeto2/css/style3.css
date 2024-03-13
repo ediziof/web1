@@ -1,0 +1,27 @@
+body{
+    color:  black; font-size: 20pt;
+}
+
+h1{
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.gosto{
+    background-color: rgb(24, 209, 24);
+}
+
+.naogosto{
+    background-color: red;
+    font-style: italic;
+}
+
+span{
+    text-decoration: underline;
+}
+
+span.gen{
+    font-weight: bold;
+    font-size: 130%;
+    color: black;
+}
