@@ -6,14 +6,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Javascript</title>
 	<script>
-		function mudarCor(){
+		function mudarCorPag(){
 			var bd=document.querySelector("body");
 			bd.style.backgroundColor="gray";
 		}
 	</script>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 	<button type="button" onclick="alert('Olá mundo')">Olá</button>
-	<button type="button" onclick="mudarCor()">Mudar cor</button>
+	<button type="button" onclick="mudarCorPag()">Mudar cor</button>
+	<button type="button" onclick="mudarCorBox()">Mudar cor box</button>
+
+	<div class="box" id="bx1"></div>
+
+	<script src="js/script.js"></script>
 </body>
 </html>
