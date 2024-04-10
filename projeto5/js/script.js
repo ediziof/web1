@@ -2,7 +2,6 @@ function mudarCorBox() {
     var bx = document.querySelector("#bx1");
     bx.style.backgroundColor = "blue";
     bx.style.borderRadius = "100px";
-    
 }
 
 function escopoVar(){
@@ -19,4 +18,20 @@ function escopoVar(){
     }
     console.log("Fora do bloco: "+x);
     console.log("Fora do bloco, valor de z: " + z);
+}
+
+// INCOMPLETO
+
+function somar() {
+    var iptX = document.getElementById("iptX");
+    var iptY = document.getElementById("iptY");
+
+    var x = (iptX.value) ;
+    var y = iptY.value;
+
+    var z = x + y;
+
+    var spnRes = document.getElementById("spnRes");
+
+    spnRes.innerHTML = "Soma: "+z;
 }
